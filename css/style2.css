@@ -1,0 +1,95 @@
+:root {
+    --blanco: rgb(223, 201, 167);
+    --amarilloClaro: rgb(223, 176, 106);
+    --amarilloOscuro: rgb(213, 147, 69);
+    --naranjaClaro: rgb(213, 135, 63);
+    --naranjaOscuro: rgb(193, 84, 43);
+    --rojo: rgb(158, 53, 32);
+}
+
+body {
+    background-color: var(--rojo);
+}
+
+.navbar {
+    background-color: var(--blanco);
+}
+
+#separator-ribbon {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#separator-ribbon .content {
+    width: 150%;
+    height: 50px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--amarilloOscuro)
+}
+
+.separadorComplejos {
+    width: 150%;
+    height: 100px;
+    padding-top: 20px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: var(--amarilloOscuro)
+}
+
+span {
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+.card-border {
+    border: solid 4px var(--naranjaOscuro);
+    border-radius: px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.02);
+}
+
+.leyenda {
+    color: var(--blanco);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pie {
+    background-color: var(--naranjaClaro);
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--blanco);
+}
+
+a {
+    color: brown;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+#contenedor {
+    position: relative;
+    z-index: 99;
+}
+
+.menu {
+    color: black;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blanco {
+    color: var(--blanco);
+}
